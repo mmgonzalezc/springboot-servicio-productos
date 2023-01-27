@@ -1,6 +1,6 @@
 package com.formacionbdi.springboot.app.productos.models.dao;
 
-import com.formacionbdi.springboot.app.productos.models.entiy.Producto;
+import com.formacionbdi.springboot.app.commons.model.entity.Producto;
 import org.springframework.data.repository.CrudRepository;
 /***
  * Cuando se hereda por defecto ya es un objeto manejado por sprint
