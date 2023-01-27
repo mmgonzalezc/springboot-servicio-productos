@@ -13,7 +13,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /***
  * buscar nuestra libreria commons
  */
-@EntityScan({"com.formacionbdi.springboot.app.commons.models.entity"})
+@EntityScan({"com.formacionbdi.springboot.app.commons.model.entity"})
 public class SpringbootServicioProductosApplication {
 
     public static void main(String[] args) {
