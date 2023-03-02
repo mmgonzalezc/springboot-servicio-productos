@@ -14,9 +14,6 @@ public class ProductoServiceImpl implements IproductoService{
     private ProductoDao productoDao;
 
     @Override
-    /**
-     * Transaccion solo de lectura
-     */
     @Transactional(readOnly = true) // Transactional de lectura
     public List<Producto> findAll() {
         return (List<Producto>) productoDao.findAll();
